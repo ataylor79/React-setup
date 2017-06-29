@@ -1,0 +1,9 @@
+form input {
+  padding: 0.75rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 1rem;
+}

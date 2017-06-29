@@ -1,0 +1,10 @@
+
+  .todo div {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
