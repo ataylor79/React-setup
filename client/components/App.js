@@ -1,15 +1,17 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import TodoList from './TodoList';
-import Detail from '../containers/details';
+
+/*
+add imports to containers
+ */
 
 const App = () => (
-  <div>
-    <Switch>
-      <Route exact path="/" component={TodoList} />
-      <Route path="/details/:id" component={Detail} />
-    </Switch>
-  </div>
+	<div>
+		<Switch>
+			<Route exact path="/" component={} />
+			<Route path="/path/:id" component={} />
+		</Switch>
+	</div>
 );
 
 export default App;

@@ -5,12 +5,12 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
 import { createLogger } from 'redux-logger';
 import thunk from 'redux-thunk';
-import todoApp from './reducers';
+import appReducers from './reducers';
 import App from './components/App';
 
 const reduxLogger = createLogger();
 const store = createStore(
-  todoApp,
+  appReducers,
   compose(applyMiddleware(thunk, reduxLogger)),
  );
 

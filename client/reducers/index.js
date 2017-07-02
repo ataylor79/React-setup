@@ -1,10 +1,9 @@
 import { combineReducers } from 'redux';
-import todos from './todos';
-import details from './details';
 
-const todoApp = combineReducers({
-	todos,
-	details
-});
+/*
+Import other reducers and combine them here
+ */
 
-export default todoApp;
+const reducers = combineReducers({});
+
+export default reducers;
