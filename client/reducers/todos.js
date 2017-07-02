@@ -1,6 +1,3 @@
-/*
- reducers alter the state when an action is called
- */
 
 const todo = (state = {}, action) => {
   switch (action.type) {
